@@ -1,0 +1,94 @@
+Test 1
+Incorrect program output
+--- Input ---
+3 2 1
+0 0
+0 1
+1 0
+0 1
+0 2
+1 2
+1 0
+--- Expected output (numbers)---
+1 1
+
+Test 2: Exemplo 2
+Incorrect program output
+--- Input ---
+3 2 1
+0 0
+0 1
+2 0
+0 1
+0 2
+1 2
+1 0
+--- Expected output (numbers)---
+0 0
+
+Test 3: Exemplo 3
+Incorrect program output
+--- Input ---
+3 2 1
+0 0
+0 1
+2 0
+0 1
+0 2
+1 2
+1 1
+--- Expected output (numbers)---
+1 0
+
+Test 4: Exemplo 4
+Incorrect program output
+--- Input ---
+5 4 2
+0 1
+0 0
+0 2
+1 1
+10 2
+0 1
+0 3
+1 4
+2 4
+0 2
+3 4
+1 1
+--- Expected output (numbers)---
+1 0
+
+Test 5: Exemplo 5
+Incorrect program output
+--- Input ---
+4 3 2
+0 0
+0 2
+1 2
+11 2
+0 1
+2 1
+2 3
+0 2
+1 3
+1 1
+--- Expected output (numbers)---
+0 0
+
+Test 6: Exemplo 6
+Incorrect program output
+--- Input ---
+4 3 2
+0 0
+0 2
+1 2
+11 2
+0 1
+2 1
+2 3
+0 2
+1 3
+1 2
+--- Expected output (numbers)---
+1 0

@@ -1,0 +1,151 @@
+-Grafo 1 (Esparso) 1/0
+5 4 2
+0 1
+0 0
+0 2
+1 1
+10 2
+0 1
+0 3
+1 4
+2 4
+0 2
+3 4
+1 1
+Dijkstra (Lista de Adjacência): 12031.25 ns
+Dijkstra (Matriz de Adjacência): 1537.5 ns
+A* (Lista de Adjacência): 1850 ns
+A* (Matriz de Adjacência): 1071.43 ns
+
+
+-Grafo 2 (Denso) 1/1
+3 2 1
+0 0
+0 1
+1 0
+0 1
+0 2
+1 2
+1 0
+Dijkstra (Lista de Adjacência): 11.000 ns
+Dijkstra (Matriz de Adjacência): 1.326,67 ns
+A (Lista de Adjacência):* 1.473,33 ns
+A (Matriz de Adjacência):* 906,67 ns
+
+-Grafo 3 (Esparso) 0/0
+4 3 2
+0 0
+0 2
+1 2
+11 2
+0 1
+2 1
+2 3
+0 2
+1 3
+1 1
+Dijkstra (Lista de Adjacência): 11315.79 ns
+Dijkstra (Matriz de Adjacência): 1273.68 ns
+A* (Lista de Adjacência): 1457.89 ns
+A* (Matriz de Adjacência): 778.95 ns
+
+-Grafo 4 (Denso) 1/0
+3 2 1
+0 0
+0 1
+2 0
+0 1
+0 2
+1 2
+1 1
+Dijkstra (Lista de Adjacência): 10046.67 ns
+Dijkstra (Matriz de Adjacência): 1153.33 ns
+A* (Lista de Adjacência): 1326.67 ns
+A* (Matriz de Adjacência): 786.67 ns
+
+-Grafo 5 (Esparso) 1/0
+4 3 2
+0 0
+0 2
+1 2
+11 2
+0 1
+2 1
+2 3
+0 2
+1 3
+1 2
+Dijkstra (Lista de Adjacência): 11005.88 ns
+Dijkstra (Matriz de Adjacência): 1311.76 ns
+A* (Lista de Adjacência): 1488.24 ns
+A* (Matriz de Adjacência): 835.29 ns
+
+-Grafo 6 (Denso) 0/0
+3 2 1
+0 0
+0 1
+2 0
+0 1
+0 2
+1 2
+1 0
+Dijkstra (Lista de Adjacência): 9373.33 ns
+Dijkstra (Matriz de Adjacência): 1140.00 ns
+A* (Lista de Adjacência): 1400.00 ns
+A* (Matriz de Adjacência): 746.67 ns
+
+-Grafo 7 (Esparso) 1/1
+6 5 1
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+0 1
+1 2
+2 3
+3 4
+4 5
+0 2
+7 2
+Dijkstra (Lista de Adjacência): 10920.00 ns
+Dijkstra (Matriz de Adjacência): 1608.00 ns
+A* (Lista de Adjacência): 2132.00 ns
+A* (Matriz de Adjacência): 1556.00 ns
+
+-Grafo 8 (Denso) 1/1
+6 10 3
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+0 1
+1 2
+2 3
+3 4
+4 5
+5 0
+1 3
+2 4
+3 5
+4 0
+0 2
+2 5
+3 1
+4 3
+10 3
+Dijkstra (Lista de Adjacência): 9380.00 ns
+Dijkstra (Matriz de Adjacência): 1325.00 ns
+A* (Lista de Adjacência): 1085.00 ns
+A* (Matriz de Adjacência): 865.00 ns
+
+
+
+
+
+
+matriz = grafo denso 
+lista = grafo esparsos.
