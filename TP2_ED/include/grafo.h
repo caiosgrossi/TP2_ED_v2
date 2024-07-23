@@ -11,8 +11,9 @@ struct Aresta {
     Aresta* proximo;
 };
 
-struct Grafo {
+struct Grafo { 
     int numeroDeVertices;
+    float** matrizAdjacencia;
     Aresta** listaAdjacencia;
     Aresta** listaPortais;
     Vertice** listaVertices;

@@ -4,6 +4,7 @@
 #include "grafo.h"
 #include "fila_prioridade.h"
 
-bool executarDijkstra(Grafo& grafo, float energiaMaxima, int portaisMaximos, bool print);
+bool executarDijkstraLista(Grafo& grafo, float energiaMaxima, int portaisMaximos);
+bool executarDijkstraMatriz(Grafo& grafo, float energiaMaxima, int portaisMaximos);
 
 #endif // DIJKSTRA_H

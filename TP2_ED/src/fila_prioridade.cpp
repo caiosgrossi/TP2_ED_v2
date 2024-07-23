@@ -14,6 +14,7 @@ FilaPrioridade::~FilaPrioridade() {
     }
 }
 
+// Insere um novo nó na fila de prioridade
 void FilaPrioridade::inserir(Vertice* vertice, float custo, int portaisUsados) {
     // Insere o novo nodo na posição correta
     Nodo* novoNodo = new Nodo{vertice, custo, portaisUsados, nullptr};
@@ -32,6 +33,7 @@ void FilaPrioridade::inserir(Vertice* vertice, float custo, int portaisUsados) {
     }
 }
 
+// Remove o nó com menor custo da fila de prioridade
 Nodo* FilaPrioridade::remover() {
     if (estaVazia()) return nullptr;
     Nodo* removido = topo;
@@ -39,14 +41,7 @@ Nodo* FilaPrioridade::remover() {
     return removido;
 }
 
+// Verifica se a fila de prioridade está vazia
 bool FilaPrioridade::estaVazia() {
     return topo == nullptr;
-}
-
-void FilaPrioridade::imprimir() { // Adicione esta função
-    Nodo* atual = topo;
-    while (atual) {
-        std::cout << "Vertice: " << atual->vertice->indice << ", Custo: " << atual->custo << ", Portais Usados: " << atual->portaisUsados << std::endl;
-        atual = atual->proximo;
-    }
 }

@@ -4,6 +4,8 @@
 #include "grafo.h"
 #include "fila_prioridade.h"
 
-bool executarAestrela(Grafo& grafo, float energiaMaxima, int portaisMaximos, bool print);
+bool executarAestrelaLista(Grafo& grafo, float energiaMaxima, int portaisMaximos);
+bool executarAestrelaMatriz(Grafo& grafo, float energiaMaxima, int portaisMaximos);
+
 
 #endif // AESTRELA_H
