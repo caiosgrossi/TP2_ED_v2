@@ -34,8 +34,9 @@ int main() {
     int portaisMaximos;
     std::cin >> energiaMaxima >> portaisMaximos;
 
-    std::cout << executarDijkstraMatriz(grafo, energiaMaxima, portaisMaximos) << " ";
-    std::cout << executarAestrelaMatriz(grafo, energiaMaxima, portaisMaximos) << std::endl;
-    
+    std::cout << executarDijkstraMatrizHeap(grafo, energiaMaxima, portaisMaximos) << " ";
+    std::cout << executarAestrelaMatrizHeap(grafo, energiaMaxima, portaisMaximos) << std::endl;
+    std::cout << executarDijkstraListaHeap(grafo, energiaMaxima, portaisMaximos) << " ";
+    std::cout << executarAestrelaListaHeap(grafo, energiaMaxima, portaisMaximos) << std::endl;
     return 0;
 }
